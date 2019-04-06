@@ -13,6 +13,6 @@ namespace APIparcial.Models
 
         }
 
-        
+        public System.Data.Entity.DbSet<APIparcial.Models.Amigo> Amigoes { get; set; }
     }
 }
