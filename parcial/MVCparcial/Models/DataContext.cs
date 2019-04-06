@@ -12,5 +12,7 @@ namespace MVCparcial.Models
         {
 
         }
+
+        public System.Data.Entity.DbSet<MVCparcial.Models.Amigo> Amigoes { get; set; }
     }
 }
